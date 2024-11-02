@@ -1,0 +1,11 @@
+Inicializar projeto node
+npm init -y
+
+Reload server
+npm i nodemon -D
+
+Express
+npm i express
+
+Mongoose
+npm i mongoose
