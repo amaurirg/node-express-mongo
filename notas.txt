@@ -9,3 +9,16 @@ npm i express
 
 Mongoose
 npm i mongoose
+
+Para variáveis de ambiente
+npm i dotenv
+
+
+
+Embed x Reference
+=================
+
+Veja os arquivos para entender a diferença e utilizar o método referencing
+- Embed x Reference.docx
+- Mesmo projeto usando Reference.docx
+

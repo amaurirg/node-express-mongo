@@ -1,8 +1,9 @@
 import mongoose from "mongoose";
 
 
-mongoose.connect("mongodb+srv://amaurigiovani:l0p3lUgulKvUJRTT@aluranode.3hk5a.mongodb.net/?retryWrites=true&w=majority&appName=AluraNode")
+async function conectaDatabase() {
+    mongoose.connect(process.env.DB_CONNECTION_STRING)
+    return mongoose.connection;
+};
 
-let db = mongoose.connection;
-
-export default db;
+export default conectaDatabase;
